@@ -1,0 +1,9 @@
+create database exemploCRUD;
+use exemploCRUD;
+create table usuarios(
+	id integer primary key auto_increment,
+    nome varchar(45),
+    email varchar(255),
+    senha varchar(255),
+    data_nasc date
+)
